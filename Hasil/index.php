@@ -14,8 +14,8 @@ if (mysqli_num_rows($query) == 0) {
   <div class="row align-items-center pb-5 mb-3">
     <div class="col-xl-5 col-md-10 col-lg-5 col-sm-12 mx-auto">
       <div class="card shadow mb-4 mx-auto">
-        <div class="card-header d-sm-flex align-items-center justify-content-center mb-4 bg-white">
-          <h1 class="h4 mb-0 text-utama font-weight-bolder text-center">Hasil</h1>
+        <div class="card-header d-sm-flex align-items-center justify-content-center mb-4 utama">
+          <h1 class="h4 mb-0 text-utama font-weight-bolder text-white">Hasil</h1>
         </div>
         <div class="card-body">
           <div class="table-responsive">

@@ -10,7 +10,7 @@ $pilihan = $_POST['pilihan'];
 $status_ajuan = $_POST['status_ajuan'];
 
 // mengambil data berkas
-if ($semester == "0") {
+if ($semester == "") {
   echo "<script>alert('Maaf, Semester tidak boleh kosong!');window.location.href='index.php';</script>";
   die();
 }
@@ -52,7 +52,7 @@ if (
     $sql = mysqli_query($koneksi, $query);
     // Eksekusi Jalankan query dari variabel $query
     if ($sql) { // Cek jika proses simpan ke database sukses atau tidak
-      echo "<script>alert('Data berhasil disimpan!');window.location.href='../Hasil/index.php';</script>";
+      echo "<script>alert('Terima Kasih! Data kamu akan segera kami periksa');window.location.href='../Hasil/index.php';</script>";
     } else {
       // gunakan alert
       echo "<script>alert('Maaf, Terjadi kesalahan saat mencoba untuk menyimpan data ke database!');window.location.href='index.php';</script>";

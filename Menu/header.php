@@ -39,6 +39,11 @@
       background-color: #374c4a;
       color: #fff;
     }
+
+    .opacity-saya {
+      opacity: 0.9;
+      /* blur */
+    }
   </style>
 </head>
 
@@ -57,21 +62,21 @@
           <?php
           if ($_SERVER['REQUEST_URI'] == "/kampuskuaja.ac.id/Dashboard/" || $_SERVER['REQUEST_URI'] == "/kampuskuaja.ac.id/Dashboard/index.php") {
           ?>
-            <a class="nav-link active" aria-current="page" href="/kampuskuaja.ac.id/Dashboard/">Pilihan Beasiswa</a>
+            <a class="nav-link active fw-bold" aria-current="page" href="/kampuskuaja.ac.id/Dashboard/">Pilihan Beasiswa</a>
           <?php } else { ?>
             <a class="nav-link" href="/kampuskuaja.ac.id/Dashboard/">Pilihan Beasiswa</a>
           <?php } ?>
           <?php
           if ($_SERVER['REQUEST_URI'] == "/kampuskuaja.ac.id/Daftar/" || $_SERVER['REQUEST_URI'] == "/kampuskuaja.ac.id/Daftar/index.php") {
           ?>
-            <a class="nav-link active" aria-current="page" href="/kampuskuaja.ac.id/Daftar/">Daftar</a>
+            <a class="nav-link active fw-bold" aria-current="page" href="/kampuskuaja.ac.id/Daftar/">Daftar</a>
           <?php } else { ?>
             <a class="nav-link" href="/kampuskuaja.ac.id/Daftar/">Daftar</a>
           <?php } ?>
           <?php
           if ($_SERVER['REQUEST_URI'] == "/kampuskuaja.ac.id/Hasil/" || $_SERVER['REQUEST_URI'] == "/kampuskuaja.ac.id/Hasil/index.php") {
           ?>
-            <a class="nav-link active" aria-current="page" href="/kampuskuaja.ac.id/Hasil/">Hasil</a>
+            <a class="nav-link active fw-bold" aria-current="page" href="/kampuskuaja.ac.id/Hasil/">Hasil</a>
           <?php } else { ?>
             <a class="nav-link" href="/kampuskuaja.ac.id/Hasil/">Hasil</a>
           <?php } ?>
